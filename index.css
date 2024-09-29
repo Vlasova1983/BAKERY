@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {    
+    @font-face {
+        font-family: 'Blogger500';      
+        src: url(/fonts/Medium.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'Blogger700';      
+        src: url(/fonts/Bold.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'Proximanova400';      
+        src: url(/fonts/proximanova_regular.woff) format('woff');
+    }
+}
